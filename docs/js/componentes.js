@@ -24,7 +24,7 @@ export const crearHtml=( tipo1, tipo2 ) => {
     if(tipo1){
         const htmlJugador = `<img src="./img/manos/${tipo1}.png" alt="Jugador-1" /> `;
         div.innerHTML     =  htmlJugador;
-       console.log( imgJugador.append(div.firstElementChild));
+       imgJugador.append(div.firstElementChild);
        
         
     }
