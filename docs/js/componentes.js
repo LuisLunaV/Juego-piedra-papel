@@ -26,6 +26,7 @@ export const crearHtml=( tipo1, tipo2 ) => {
         const htmlJugador = `<img src="img/manos/${tipo1}.png" alt="Jugador-1" /> `;
         div.innerHTML     =  htmlJugador;
         imgJugador.append(div.firstElementChild);
+        return div.firstElementChild;
         
     }
     
@@ -34,7 +35,7 @@ export const crearHtml=( tipo1, tipo2 ) => {
         const htmlMaquina = `<img src="img/manos/${tipo2}.png" alt="Jugador-2" />`;
         div.innerHTML     =  htmlMaquina;    
         imgComputadora.append(div.firstElementChild);
-
+        return div.firstElementChild;
     }
   
     //Envia como argumento los tipos de figuras a una funcion que toma las decisiones de quien gana o quien pierde dependiendo las figuras.
