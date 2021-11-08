@@ -79,6 +79,6 @@ piedra.disabled = false;
 papel.disabled  = false;
 tijera.disabled = false; 
 
-},17000)
+},4000)
     
 }
