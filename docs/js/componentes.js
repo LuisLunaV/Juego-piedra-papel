@@ -81,11 +81,11 @@ export const crearHtml=( tipo1, tipo2 ) => {
 //Despues llama a la funcion 'reiniciar()' para volver a jugar.
                 if(puntos > puntosPc){
     
-            const htmlJugador = `<img src="img/final/win.png" alt="Jugador-1" /> `;
+            const htmlJugador = `<img src="./img/final/win.png" alt="Jugador-1" /> `;
             div.innerHTML     =  htmlJugador;
             imgJugador.append(div.firstElementChild);
     
-            const htmlMaquina = `<img src="img/final/lose.png" alt="Jugador-1" /> `;
+            const htmlMaquina = `<img src="./img/final/lose.png" alt="Jugador-1" /> `;
             div.innerHTML     =  htmlMaquina;    
             imgComputadora.append(div.firstElementChild);
 
@@ -95,11 +95,11 @@ reiniciar();
         }
                 else if(puntos < puntosPc){
 
-                    const htmlMaquina = `<img src="img/final/win.png" alt="Jugador-1" /> `;
+                    const htmlMaquina = `<./img src="img/final/win.png" alt="Jugador-1" /> `;
                     div.innerHTML     =  htmlMaquina
                     imgComputadora.append(div.firstElementChild);
     
-                    const htmlJugador = `<img src="img/final/lose.png" alt="Jugador-1" /> `;
+                    const htmlJugador = `<./img src="img/final/lose.png" alt="Jugador-1" /> `;
                     div.innerHTML     =  htmlJugador   
                     imgJugador.append(div.firstElementChild);
 reiniciar();
