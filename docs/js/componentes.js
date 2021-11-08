@@ -20,7 +20,7 @@ export const computadora =( array ) => {
 
 //Recibe como argumento las figuras seleccionadas por el jugador-computadora, y se crean las eiquetas <img> para mostrar sus respectivas figuras.
 export const crearHtml=( tipo1, tipo2 ) => {
-
+console.log(tipo1, tipo2);
     if(tipo1){
         const htmlJugador = `<img src="./img/manos/${tipo1}.png" alt="Jugador-1" /> `;
         div.innerHTML     =  htmlJugador;
@@ -65,7 +65,7 @@ export const crearHtml=( tipo1, tipo2 ) => {
 
         limpiarHtml();
 
-        },22000); 
+        },2000); 
         
     }else{
 
@@ -112,7 +112,7 @@ reiniciar();
                     reiniciar();
             }    
 
-            },22000)
+            },2000)
             
             
         }
