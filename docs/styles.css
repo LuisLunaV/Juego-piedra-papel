@@ -77,7 +77,10 @@ button{
         justify-content: center;
         align-items: center;
     }
-   
+    .botones{
+        height: 165px;
+       
+        }
 }
 @media screen and (min-width:460px){
 
