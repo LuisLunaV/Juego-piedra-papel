@@ -12,36 +12,36 @@ export let turnos   = 3,
 //Resta los turnos usados y agrega las victorias a las variables 'puntos-puntosPc', dependiendo las decisiones tomadas.
 export const juegos = ( jugador, maquina ) => {
 
-    if(jugador == 'piedra' && maquina == 'piedra-2'){
+    if(jugador == 'Piedra' && maquina == 'Piedra-2'){
         turnos--;
-    } else if(jugador == 'piedra' && maquina == 'papel-2'){
+    } else if(jugador == 'Piedra' && maquina == 'Papel-2'){
         
         puntosPc++;
         turnos--;
-    } else if(jugador == 'piedra' && maquina == 'tijera-2'){
+    } else if(jugador == 'Piedra' && maquina == 'Tijera-2'){
         
         puntos++;
         turnos--;
-    } else if(jugador == 'papel' && maquina == 'piedra-2'){
+    } else if(jugador == 'Papel' && maquina == 'Piedra-2'){
         
         puntos++;
         turnos--;
-    } else if(jugador == 'papel' && maquina == 'papel-2'){
+    } else if(jugador == 'Papel' && maquina == 'Papel-2'){
         
         turnos--;
-    } else if(jugador == 'papel' && maquina == 'tijera-2'){
+    } else if(jugador == 'Papel' && maquina == 'Tijera-2'){
         
         puntosPc++;
         turnos--;
-    } else if(jugador == 'tijera' && maquina == 'piedra-2'){
+    } else if(jugador == 'Tijera' && maquina == 'Piedra-2'){
         
         puntosPc++;
         turnos--;
-    } else if(jugador == 'tijera' && maquina == 'papel-2'){
+    } else if(jugador == 'Tijera' && maquina == 'Papel-2'){
         
         puntos++;
         turnos--;
-    } else if(jugador == 'tijera' && maquina == 'tijera-2'){
+    } else if(jugador == 'Tijera' && maquina == 'Tijera-2'){
         
         turnos--;
     }

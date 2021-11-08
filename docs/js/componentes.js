@@ -36,7 +36,7 @@ console.log(tipo1, tipo2);
       
     }
   
-    //Envia como argumento los tipos de figuras a una funcion que toma las decisiones de quien gana o quien pierde dependiendo las figuras.
+//Envia como argumento los tipos de figuras a una funcion que toma las decisiones de quien gana o quien pierde dependiendo las figuras.
     juegos(tipo1, tipo2);
    
     };
