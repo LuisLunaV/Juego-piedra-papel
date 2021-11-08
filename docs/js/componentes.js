@@ -65,7 +65,7 @@ export const crearHtml=( tipo1, tipo2 ) => {
 
         limpiarHtml();
 
-        },15000); 
+        },2000); 
         
     }else{
 
@@ -112,7 +112,7 @@ reiniciar();
                     reiniciar();
             }    
 
-            },15000)
+            },2000)
             
             
         }
