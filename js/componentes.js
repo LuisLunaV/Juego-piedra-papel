@@ -97,11 +97,11 @@ reiniciar();
                 else if(puntos < puntosPc){
 
                     const htmlMaquina = `<img src="img/final/win.png" alt="Jugador-1" /> `;
-                    div.innerHTML     =  htmlMaquina
+                    div.innerHTML     =  htmlMaquina;
                     imgComputadora.append(div.firstElementChild);
     
                     const htmlJugador = `<img src="img/final/lose.png" alt="Jugador-1" /> `;
-                    div.innerHTML     =  htmlJugador   
+                    div.innerHTML     =  htmlJugador;   
                     imgJugador.append(div.firstElementChild);
 reiniciar();
                     
