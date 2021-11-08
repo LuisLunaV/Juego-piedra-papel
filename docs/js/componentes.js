@@ -1,6 +1,6 @@
 import { juegos, turnos, puntos, puntosPc, reiniciar } from './puntajes.js';
 
-export const manos          = ['piedra-2','papel-2','tijera-2'],
+export const manos          = ['Piedra-2','Papel-2','Tijera-2'],
              piedra         = document.querySelector('.btn-piedra'),
              papel          = document.querySelector('.btn-papel'),
              tijera         = document.querySelector('.btn-tijera'),

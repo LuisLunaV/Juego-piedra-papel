@@ -2,21 +2,21 @@ import {manos,crearHtml,computadora, lapsoBtn, piedra, papel, tijera, turno} fro
 
 piedra.addEventListener('click',()=>{
 
-    crearHtml('piedra', computadora(manos));
+    crearHtml('Piedra', computadora(manos));
     lapsoBtn();
    
 });
 
 papel.addEventListener('click',()=>{
 
-    crearHtml('papel', computadora(manos));
+    crearHtml('Papel', computadora(manos));
     lapsoBtn();
 
 });
 
 tijera.addEventListener('click',()=>{
 
-    crearHtml('tijera', computadora(manos)); 
+    crearHtml('Tijera', computadora(manos)); 
     lapsoBtn();
 
 });
