@@ -1,5 +1,5 @@
+import './styles.css';
 import {manos,crearHtml,computadora, lapsoBtn, piedra, papel, tijera, turno} from './js/index.js';
-
 
 piedra.addEventListener('click',()=>{
 
