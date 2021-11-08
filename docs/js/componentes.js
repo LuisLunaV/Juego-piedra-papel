@@ -22,19 +22,16 @@ export const computadora =( array ) => {
 export const crearHtml=( tipo1, tipo2 ) => {
 
     if(tipo1){
-    
         const htmlJugador = `<img src="img/manos/${tipo1}.png" alt="Jugador-1" /> `;
-        div.innerHTML     =  htmlJugador;
-        imgJugador.append(div.firstElementChild);
+    imgJugador.innerHTML   =  htmlJugador;
        
         
     }
     
     if(tipo2[tipo2.length-1]==2){
-    
         const htmlMaquina = `<img src="img/manos/${tipo2}.png" alt="Jugador-2" />`;
-        div.innerHTML     =  htmlMaquina;    
-        imgComputadora.append(div.firstElementChild);
+        imgComputadora.innerHTML     =  htmlMaquina;    
+     
       
     }
   
