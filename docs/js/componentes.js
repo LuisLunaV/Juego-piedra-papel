@@ -101,7 +101,7 @@ reiniciar();
                     imgComputadora.append(div.firstElementChild);
     
                     const htmlJugador = `<./img src="img/final/lose.png" alt="Jugador-1" /> `;
-                    div.innerHTML     =  htmlJugador ;   
+                    div.innerHTML     =  htmlJugador;   
                     imgJugador.append(div.firstElementChild);
 reiniciar();
                     
