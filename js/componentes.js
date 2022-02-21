@@ -28,8 +28,8 @@ export const crearHtml=( tipo1, tipo2 ) => {
         imgJugador.append(div.firstElementChild);
         
     }
-    
-    if(tipo2[tipo2.length-1]==2){
+
+    if(tipo2[tipo2.length-1]==2){//Obtenemos el ultimo elemento de la cadena (tijera-2,piedra-2,papel-2) que tiene que ser 2 y lo validamos.
     
         const htmlMaquina = `<img src="img/manos/${tipo2}.png" alt="Jugador-2" />`;
         div.innerHTML     =  htmlMaquina;    
